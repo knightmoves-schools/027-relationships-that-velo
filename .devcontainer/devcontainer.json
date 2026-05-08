@@ -1,0 +1,14 @@
+{
+  "name": "SQL Lesson Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "alexcvzz.vscode-sqlite"
+      ],
+      "settings": {
+        "sqlite.sqlitePath": "/home/codespace/.vscode-remote/extensions/alexcvzz.vscode-sqlite-0.14.1/bin/sqlite-v3-26.0-linux-x64"
+      }
+    }
+  }
+}
